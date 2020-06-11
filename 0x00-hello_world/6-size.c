@@ -1,5 +1,10 @@
 #include <stdio.h>
-int main(void)
+/**
+ *size
+ *
+ *return 0
+ **/
+intt main(void)
 {
   char c;
   int i;
