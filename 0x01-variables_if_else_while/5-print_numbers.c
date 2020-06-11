@@ -9,6 +9,7 @@ int main(void)
 {
 int i;
 for (i = 0; i < 10; i++)
-print(i);
-print('\n');
+print("%d",i);
+putchar('\n');
+return 0;
 }
