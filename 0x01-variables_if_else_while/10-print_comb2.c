@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -28,4 +25,3 @@ putchar(32);
 putchar('\n');
 return (0);
 }
->>>>>>> 87aa6ac9b3765c15b1c0c47289c249d580e30ce3
