@@ -2,26 +2,28 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int i, j;
-	for (i = '01' ; i <= '10' ; i++)
-	{
-		for (j = '01' ; j <= '10' ; j++)
-		{
-			putchar(i);
-			putchar(j);
-			if (!((i == '10') && (j == '10')))
-			{
-				putchar(44);
-				putchar(32);
-			}
-		}
-	}
-	putchar('\n');
-	return (0);
+int i, j;
+	int r = 0;
+for (i = '0' ; i <= '9' ; i++)
+{
+	r++;
+for (j = r ; j <= '9' ; j++)
+{
+putchar(i);
+putchar(j);
+if (!((i == '9') && (j == '9')))
+{
+putchar(44);
+putchar(32);
+}
+}
+}
+putchar('\n');
+return (0);
 }
