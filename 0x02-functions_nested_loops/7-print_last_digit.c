@@ -1,15 +1,18 @@
 #include "holberton.h"
 #include "math.h"
 /**
-*int print_last_digit
-*@n: print last digit
-* Return: Always 0 (Success)
+* print_last_digit - check the code for Holberton School students.
+* @n: int
+* Return: last digit
 */
 int print_last_digit(int n)
 {
-     if (n >= 10)
+if (n < 0)
+n = -n;
+if (n >= 10)
 {
- n = n % 10;
+return (n % 10);
 }
+else
 return (n);
 }
