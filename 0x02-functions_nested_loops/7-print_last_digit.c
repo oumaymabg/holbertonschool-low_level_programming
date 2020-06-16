@@ -3,11 +3,16 @@
 /**
 * print_last_digit - check the code for Holberton School students.
 * @n: int
-* Return: 1 or 0 or -1
+* Return: last digit
 */
 int print_last_digit(int n)
 {
 if (n < 0)
 n = -n;
+if (n >= 10)
+{
 return (n % 10);
+}
+else
+return (n);
 }
