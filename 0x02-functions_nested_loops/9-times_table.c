@@ -1,32 +1,33 @@
 #include "holberton.h"
 /**
-* void times_table check the code for Holberton School student
+* times_table - check the code for Holberton School student
+* Return the nine time table
 *
 */
 void times_table(void)
 {
 int n, j, i;
-for(j=0; j <= 9; j++)
+for (j = 0; j <= 9; j++)
 {
-for(i = 0; i <= 9; i++)
+for (i = 0; i <= 9; i++)
 {
 n = j * i;
-if(i !=0)
+if (i != 0)
 {
-_putchar(',');
-_putchar(',');
+_putchar (',');
+_putchar (',');
 }
-if(n > 9)
+if (n > 9)
 {
-_putchar(n / 10 + 48);
-_putchar(n % 10 + 48);
+_putchar (n / 10 + 48);
+_putchar (n % 10 + 48);
 }
 else
 {
-_putchar(' ');
-_putchar(a + 48);
+_putchar (' ');
+_putchar (a + 48);
 }
 }
-_putchar('\n');
+_putchar ('\n');
 }
 }
