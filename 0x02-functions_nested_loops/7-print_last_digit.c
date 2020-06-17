@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include "math.h"
+#include <math.h>
 /**
 * print_last_digit - check the code for Holberton School students.
 * @n: int
