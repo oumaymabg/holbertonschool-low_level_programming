@@ -12,7 +12,7 @@ if (n < 0)
 n = (-1) * n;
   return (n % 10);
 }
-else if (n >= 10)
+else if (n >= 0)
 {
   return (n % 10);
 
