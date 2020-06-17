@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <math.h>
 /**
 * print_last_digit - check the code for Holberton School students.
 * @n: int
@@ -7,14 +6,17 @@
 */
 int print_last_digit(int n)
 {
-if (n < 0)
-{
-n = (-1) * n;
-  return (n % 10);
-}
-else if (n >= 0)
-{
-  return (n % 10);
+int i;
 
-}
+i = n % 10;
+	if (i < 0)
+	{
+	_putchar((i * (-1)) + '0');
+	return (i * (-1));
+	}
+	else
+	{
+	_putchar(i + '0');
+	return (i);
+	}
 }
