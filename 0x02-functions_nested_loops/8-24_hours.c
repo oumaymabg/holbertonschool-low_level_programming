@@ -1,6 +1,4 @@
 #include "holberton.h"
-#include "stdlib.h"
-#include "time.h"
 /**
 * jack_bauer - a function that prints every minute of the day of Jack Bauer,
 *
@@ -14,9 +12,12 @@ for (h = 00; h <= 23; h++)
 {
 for (m = 00; m <= 59; m++)
 {
-_putchar(h);
+_putchar(h / 10)+ '0');
+_putchar((h % 10) + '0');
 _putchar(':');
-_putchar(m);
+_putchar((m / 10) + '0');
+_putchar((m % 10) + '0');
+_putchar('\n');
 }
 }
 }
