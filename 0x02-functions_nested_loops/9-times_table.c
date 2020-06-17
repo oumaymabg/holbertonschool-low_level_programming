@@ -1,17 +1,32 @@
 #include "holberton.h"
 /**
 * void times_table check the code for Holberton School student
-* @n: int
-* Return: 1 or 0 or -1
+*
 */
-int main()
+void times_table(void)
 {
-int n, i;
-printf("Enter an integer = ");
-scanf("%d",&n);
-for(i=1; i<=10; i++)
+int n, j, i;
+for (j=0; j <= 9; j++)
 {
-printf("%d * %d = %d \n", n, i, n*i);
+for (i = 0; i <= 9; i++)
+{
+n = j * i;
+if(j !=0)
+{
+_putchar(',');
+_putchar(',');
 }
-return(0);
+if (n > 9)
+{
+_putchar(n / 10 + 48);
+_putchar(a % 10 + 48);
+}
+else
+{
+_putchar(' ');
+_putchar(a + 48);
+}
+}
+_putchar('\n');
+}
 }
