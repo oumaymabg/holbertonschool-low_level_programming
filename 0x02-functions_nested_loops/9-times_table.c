@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * times_table - multiplication table
- *
- *
- */
+* times_table - multiplication table
+*
+*
+*/
 void times_table(void)
 {
 int a, i, j;
