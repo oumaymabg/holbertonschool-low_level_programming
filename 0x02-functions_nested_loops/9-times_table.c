@@ -16,6 +16,9 @@ printf("%d", n);
 if (i != 9)
 {
 _putchar (',');
+if (j > 3  || i > 3)
+_putchar ('  ');
+else
 _putchar (' ');
 }
 }
