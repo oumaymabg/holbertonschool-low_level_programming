@@ -12,12 +12,13 @@ for (j = 0; j <= 9; j++)
 for (i = 0; i <= 9; i++)
 {
 n = j * i;
-if (j != 9)
+printf("%d", n);
+if (i != 9)
 {
 _putchar (',');
 _putchar (' ');
 }
-_putchar ('\n');
 }
+_putchar ('\n');
 }
 }
