@@ -12,22 +12,12 @@ for (j = 0; j <= 9; j++)
 for (i = 0; i <= 9; i++)
 {
 n = j * i;
-if (i != 0)
+if (j != 9)
 {
 _putchar (',');
-_putchar (',');
-}
-if (n > 9)
-{
-_putchar (n / 10 + 48);
-_putchar (n % 10 + 48);
-}
-else
-{
 _putchar (' ');
-_putchar (a + 48);
-}
 }
 _putchar ('\n');
+}
 }
 }
