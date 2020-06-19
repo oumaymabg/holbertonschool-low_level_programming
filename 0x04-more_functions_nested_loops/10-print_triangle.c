@@ -18,14 +18,10 @@ for (i = 1; i <= a; i++)
 for (j = a - i ; j > 0; j--)
 {
 _putchar (' ');
+}
   for (k = 1;k <= i;k++)
 _putchar ('#');
-}
 _putchar ('\n');
-  if (n <= 0)
-    _putchar ('\n');
-  else
-}
 }
 }
 }
