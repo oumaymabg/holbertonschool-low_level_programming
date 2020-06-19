@@ -19,7 +19,7 @@ for (j = a - i ; j > 0; j--)
 {
 _putchar (' ');
 }
-  for (k = 1;k <= i;k++)
+for (k = 1;k <= i;k++)
 _putchar ('#');
 _putchar ('\n');
 }
