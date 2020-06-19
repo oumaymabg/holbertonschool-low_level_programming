@@ -6,7 +6,7 @@
 */
 void print_triangle(int a)
 {
-int i, j , k;
+int i, j, k;
 if (a <= 0)
 {
 _putchar ('\n');
@@ -19,7 +19,7 @@ for (j = a - i ; j > 0; j--)
 {
 _putchar (' ');
 }
-for (k = 1;k <= i;k++)
+for (k = 1; k <= i; k++)
 _putchar ('#');
 _putchar ('\n');
 }
