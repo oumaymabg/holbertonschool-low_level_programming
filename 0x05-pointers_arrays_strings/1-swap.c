@@ -4,7 +4,7 @@
 *@a:pointer integer;
 *@b:pointer integer;
 */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 n = *a;
 *a = *b;
