@@ -1,6 +1,6 @@
 /**
 *strlen-2-strlen
-*@char:pointer string
+*@s:pointer string
 *
 */
 int _strlen(char *s)
