@@ -1,7 +1,7 @@
 /**
-*strlen-2-strlen
+*_strlen-2-strlen
 *@s:pointer string
-*
+*@lng:int return value of _strlen
 */
 int _strlen(char *s)
 {
@@ -14,5 +14,5 @@ while (s[i] != '\0')
 lng++;
 i++;
 }
-return lng;
+return (lng);
 }
