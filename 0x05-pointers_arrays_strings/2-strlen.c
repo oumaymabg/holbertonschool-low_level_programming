@@ -1,7 +1,7 @@
 /**
 *_strlen-2-strlen
 *@s:pointer string
-*@lng:int return value of _strlen
+*@return:10
 */
 int _strlen(char *s)
 {
