@@ -1,9 +1,8 @@
 #include "holberton.h"
 /**
 *_puts-puts
-*@str:pointer
+*@str: char pointer
 */
-
 void _puts(char *str)
 {
 int j;
