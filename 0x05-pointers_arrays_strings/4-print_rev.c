@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 * print_rev - puts reverse
-* @s:pointer
+* @s:char pointer
 */
 void print_rev(char *s)
 {
