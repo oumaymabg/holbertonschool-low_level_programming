@@ -15,5 +15,4 @@ for (b = 0; b != a; b++)
 {
 s[b] = c[a - 1 - b];
 }
-_putchar('\n');
 }
