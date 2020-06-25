@@ -1,3 +1,4 @@
+#include "holberton.h"
 /**
 *_strlen-2-strlen
 *@s:pointer string
