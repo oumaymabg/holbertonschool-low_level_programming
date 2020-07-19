@@ -9,7 +9,7 @@ int j;
 
 for (j = 0; str[j] != '\0'; j++)
 {
-_putchar (str[j]);
+_putchar(str[j]);
 }
-_putchar ('/n');
+_putchar('\n');
 }
