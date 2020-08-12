@@ -5,15 +5,12 @@
 */
 void print_array(int *a, int n);
 {
-int n[ 10 ];
-int i,j;
+int i;
 
-for ( i = 0; i < 10; i++ )
+for (i = 0;i < n;i++)
 {
-n[ i ] = i + 100;
+printf (a[i], ","," ");
 }
-for (j = 0; j < 10; j++ ) {
-printf("Element[%d] = %d\n", j, n[j] );
-}
+_putchar('\n');
 return 0;
 }
