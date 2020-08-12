@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * print_array
- * @array: array pointer
- */
+* print_array
+* @array: array pointer
+*/
 void print_array(int *a, int n);
 {
 int n[ 10 ];
@@ -17,4 +17,3 @@ printf("Element[%d] = %d\n", j, n[j] );
 }
 return 0;
 }
-
