@@ -10,7 +10,7 @@ int i;
 
 for (i = 0; i < n; i++)
 {
-printf(a[i], ",", " ");
+_putchar(a[i], ",", " ");
 }
 _putchar('\n');
 return (0);
