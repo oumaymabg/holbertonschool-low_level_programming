@@ -13,5 +13,4 @@ for (i = 0; i < n; i++)
 printf("%i" "," " ",a[i]);
 }
 _putchar('\n');
-return (0);
 }
