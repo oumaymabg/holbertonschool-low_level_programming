@@ -1,26 +1,26 @@
 #include "holberton.h"
 /**
- * puts_half - puts half string
- * @str: char pointer
+ * _strcat - _strcat string
+ * @src: char pointer
+ * @dest: char pointer
+ * Return:string
  */
-void puts_half(char *str)
+char *_strcat(char *dest, char *src)
 {
-int i, j;
+int i, j, k;
 
-for (i = 0; str[i] != '\0'; i++)
+for (i = 0; dest[i] == '\0'; i++)
+{}
+for (j = 0; src[j] == '\0'; j++)
+{}
+for (i = i; i < i + j; i++)
 {
+k = 0;
+dest[i] = src[k];
+k++;
 }
-if (i % 2 == 0)
-for (j = i / 2; j < i; j++)
-{
-_putchar(str[j]);
-}
-else
-for (j = (i - 1) / 2; j < i; j++)
-{
-_putchar(str[j]);
-}
-_putchar('\n');
+dest[i] = '\0';
+return (dest);
 }
 
 
