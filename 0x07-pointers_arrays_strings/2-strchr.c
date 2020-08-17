@@ -20,5 +20,5 @@ found = 1;
 else
 s++;
 }
-return (NULL);
+return (0);
 }
