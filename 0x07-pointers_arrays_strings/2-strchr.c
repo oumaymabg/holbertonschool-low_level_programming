@@ -15,8 +15,10 @@ int found = 0;
 while (*s != '\0' || found == 1)
 {
 if (*s == c)
+{
 return (s);
 found = 1;
+}
 else
 s++;
 }
