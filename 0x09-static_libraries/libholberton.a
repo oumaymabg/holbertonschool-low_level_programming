@@ -1,0 +1,83 @@
+!<arch>
+0-isupper.o/    1598190552  1000  1000  100664  43        `
+#include <holberton.h>
+int _isupper(int c)
+
+0-memset.o/     1598190552  1000  1000  100664  71        `
+#include <holberton.h>
+char *_memset(char *s, char b, unsigned int n);
+
+0-strcat.o/     1598190552  1000  1000  100664  61        `
+#include <holberton.h>
+char *_strcat(char *dest, char *src);
+
+1-isdigit.o/    1598190552  1000  1000  100664  44        `
+#include <holberton.h>
+int _isdigit(int c);
+1-memcpy.o/     1598190552  1000  1000  100664  77        `
+#include <holberton.h>
+char *_memcpy(char *dest, char *src, unsigned int n);
+
+1-strncat.o/    1598190552  1000  1000  100664  69        `
+#include <holberton.h>
+char *_strncat(char *dest, char *src, int n);
+
+100-atoi.o/     1598190552  1000  1000  100664  43        `
+#include <holberton.h>
+int _atoi(char *s);
+
+2-strchr.o/     1598190867  1000  1000  100664  55        `
+#include <holberton.h>
+char *_strchr(char *s, char c);
+
+2-strlen.o/     1598190923  1000  1000  100664  45        `
+#include <holberton.h>
+int _strlen(char *s);
+
+2-strncpy.o/    1598190976  1000  1000  100664  69        `
+#include <holberton.h>
+char *_strncpy(char *dest, char *src, int n);
+
+3-islower.o/    1598190552  1000  1000  100664  44        `
+#include <holberton.h>
+int _islower(int c);
+3-puts.o/       1598190552  1000  1000  100664  44        `
+#include <holberton.h>
+void _puts(char *s);
+3-strcmp.o/     1598190552  1000  1000  100664  56        `
+#include <holberton.h>
+int _strcmp(char *s1, char *s2);
+3-strspn.o/     1598190552  1000  1000  100664  68        `
+#include <holberton.h>
+unsigned int _strspn(char *s, char *accept);
+4-isalpha.o/    1598190552  1000  1000  100664  44        `
+#include <holberton.h>
+int _isalpha(int c);
+4-strpbrk.o/    1598190552  1000  1000  100664  62        `
+#include <holberton.h>
+char *_strpbrk(char *s, char *accept);
+5-strstr.o/     1598190552  1000  1000  100664  68        `
+#include <holberton.h>
+char *_strstr(char *haystack, char *needle);
+6-abs.o/        1598190552  1000  1000  100664  40        `
+#include <holberton.h>
+int _abs(int n);
+9-strcpy.o/     1598190552  1000  1000  100664  61        `
+#include <holberton.h>
+char *_strcpy(char *dest, char *src);
+
+_putchar.o/     1598190552  1000  1000  100664  270       `
+#include <unistd.h>
+#include <holberton.h>
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}

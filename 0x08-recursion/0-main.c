@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-times_table();
+_puts_recursion("Betty Holberton");
 return (0);
 }
