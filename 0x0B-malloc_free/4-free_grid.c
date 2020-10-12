@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include "holberton.h"
 /**
- * free_grid - clear a grid
- * @grid: the grid to clear
- * @height: height of the grid
- *
+ * free_grid - frees a 2D grid previously created
+ * @grid: input pointer to grid or 2D array
+ * @height: height of 2D arrray
+ * Return: void
  */
 void free_grid(int **grid, int height)
 {
