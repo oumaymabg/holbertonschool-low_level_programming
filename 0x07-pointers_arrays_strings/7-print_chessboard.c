@@ -3,7 +3,7 @@
 *print_chessboard - 0
 *@a: double table
 *
-*
+*Return: void
 */
 void print_chessboard(char (*a)[8])
 {
