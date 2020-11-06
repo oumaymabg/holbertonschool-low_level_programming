@@ -27,7 +27,7 @@
 
 ### 0. make -f 0-Makefile
 
-### Create your first Makefile.
+### nanCreate your first Makefile.
 
 ### Requirements:
     - name of the executable: holberton
@@ -68,6 +68,6 @@ julien@ubuntu:~/0x1C. Makefiles$
 
 ### Repo:
 
-    * GitHub repository: holbertonschool-low_level_programming
-    * Directory: `0x1C-makefiles`
-    * File: 0-Makefile
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x1C-makefiles`
+* File: `0-Makefile`
