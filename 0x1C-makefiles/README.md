@@ -68,6 +68,6 @@ julien@ubuntu:~/0x1C. Makefiles$
 
 ### Repo:
 
-* GitHub repository: `holbertonschool-low_level_programming`
+* GitHub repository: holbertonschool-low_level_programming
 * Directory: `0x1C-makefiles`
 * File: `0-Makefile`
