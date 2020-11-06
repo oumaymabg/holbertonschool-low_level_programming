@@ -25,13 +25,15 @@
 * A `README.md` file, at the root of the folder of the project, is mandatory.
 ## Tasks
 
-*0. make -f 0-Makefile*
+### 0. make -f 0-Makefile
+
 ***Create your first Makefile.***
+
 ***Requirements:***
-    * name of the executable: holberton
-    * rules: all
-        * The all rule builds your executable
-    * variables: none
+    - name of the executable: holberton
+    - rules: all
+    - The all rule builds your executable
+    - variables: none
 ```ruby
 julien@ubuntu:~/0x1C. Makefiles$ make -f 0-Makefile 
 gcc main.c holberton.c -o holberton
